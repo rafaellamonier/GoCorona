@@ -34,9 +34,9 @@ $font-size-p: 12px;
 					a{
 						text-decoration: none;
 						color: $font-color-black;
-						margin-left: 40px;
+						margin-right: 40px;
 						font-family: $font-default;
-						font-weight: $font-regular;
+						font-weight: $font-bold;
 					}
 				}
 			}
@@ -55,6 +55,17 @@ $font-size-p: 12px;
 				font-family: $font-default;
 				font-weight: $font-extrabold;
 			}
+		}
+		.RectangleHero{
+			position: absolute;
+			width: 400px;
+			height: 100vh;
+			right: 0;
+			top: 0;
+			z-index: -1;
+			background: url("/assets/\ images/RectangleHero.svg");
+			background-repeat: no-repeat;
+			background-size: 100%;
 		}
 	}
 }

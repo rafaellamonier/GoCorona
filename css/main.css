@@ -35,9 +35,9 @@
 .container header .nav ul li a {
   text-decoration: none;
   color: #000;
-  margin-left: 40px;
+  margin-right: 40px;
   font-family: "Raleway", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .container header .buttonDownload .buttonHeader {
@@ -52,5 +52,17 @@
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+}
+
+.container header .RectangleHero {
+  position: absolute;
+  width: 400px;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  background: url("/assets/ images/RectangleHero.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 /*# sourceMappingURL=main.css.map */
