@@ -58,14 +58,15 @@
   margin-right: 40px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 .container header .buttonDownload .buttonHeader {
   background-color: #4285f4;
   color: #fff;
   padding: 10px;
-  width: 130px;
+  width: 144px;
   height: 40px;
   border: none;
   outline: none;
@@ -73,6 +74,8 @@
   border-radius: 5px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 .container header .RectangleHero {
@@ -84,5 +87,76 @@
   right: 0;
   border-radius: 30px 0 0 30px;
   z-index: -1;
+}
+
+.container .hero {
+  width: 100%;
+  height: 400px;
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .hero .callToActionHero h1 {
+  font-size: 44px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  padding-right: 100px;
+  line-height: 126%;
+  margin-bottom: 12px;
+}
+
+.container .hero .callToActionHero h1 span {
+  color: #4285f4;
+}
+
+.container .hero .callToActionHero p {
+  color: #616161;
+  font-family: "Raleway", sans-serif;
+  padding-right: 200px;
+  line-height: 138%;
+  margin-bottom: 24px;
+}
+
+.container .hero .callToActionHero button {
+  background-color: #EC5863;
+  color: #fff;
+  padding: 10px;
+  width: 144px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.container .videoWatch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .videoWatch .content {
+  margin-left: 12px;
+}
+
+.container .videoWatch .content p.firstP {
+  color: #616161;
+  margin-bottom: 5px;
+}
+
+.container .videoWatch .content p.secontP {
+  color: #000;
 }
 /*# sourceMappingURL=main.css.map */

@@ -46,7 +46,8 @@ $font-size-p: 12px;
 						margin-right: 40px;
 						font-family: $font-default;
 						font-weight: $font-bold;
-						font-size: 14px;
+						font-size: 13px;
+						text-transform: uppercase;
 					}
 				}
 			}
@@ -56,7 +57,7 @@ $font-size-p: 12px;
 				background-color: $color-secundary;
 				color: $font-color-white;
 				padding: 10px;
-				width: 130px;
+				width: 144px;
 				height: 40px;
 				border: none;
 				outline: none;
@@ -64,6 +65,8 @@ $font-size-p: 12px;
 				border-radius: 5px;
 				font-family: $font-default;
 				font-weight: $font-extrabold;
+				font-size: 13px;
+				text-transform: uppercase;
 			}
 		}
 		.RectangleHero{
@@ -75,6 +78,62 @@ $font-size-p: 12px;
 			right: 0;
 			border-radius: 30px 0 0 30px;
 			z-index: -1;
+		}
+	}
+	.hero{
+		width: 100%;
+		height: 400px;
+		margin-top: 75px;
+		display: flex;
+		align-items: center;
+		.callToActionHero{
+			h1{
+				font-size: $font-size-h1;
+				font-family: $font-default;
+				font-weight: $font-extrabold;
+				padding-right: 100px;
+				line-height: 126%;
+				margin-bottom: 12px;
+				span{
+					color: $color-secundary;
+				}
+			}
+			p{
+				color: $font-color-secundary;
+				font-family: $font-default;
+				padding-right: 200px;
+				line-height: 138%;
+				margin-bottom: 24px;
+			}
+			button{
+				background-color: $color-primary;
+				color: $font-color-white;
+				padding: 10px;
+				width: 144px;
+				height: 40px;
+				border: none;
+				outline: none;
+				cursor: pointer;
+				border-radius: 5px;
+				font-family: $font-default;
+				font-weight: $font-extrabold;
+				font-size: 13px;
+				text-transform: uppercase;
+			}
+		}
+	}
+	.videoWatch{
+		display: flex;
+		align-items: center;
+		.content{
+			margin-left: 12px;
+			p.firstP{
+				color: $font-color-secundary;
+				margin-bottom: 5px;
+			}
+			p.secontP{
+				color: $font-color-black;
+			}
 		}
 	}
 }
